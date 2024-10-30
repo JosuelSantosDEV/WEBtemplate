@@ -1,15 +1,15 @@
 import React from "react";
 import { Grid } from "./styles"
 import MainHeader from "../components/MainHeader";
-import Aside from "../components/Aside";
 import MainContent from "../components/MainContent";
+import SideBar from "../components/SideBar";
 
 const Layout: React.FC = () => {
     return (
     <>
         <Grid>
             <MainHeader/>
-            <Aside/>
+            <SideBar/>
             <MainContent/>
         </Grid>
     </>
